@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.VITE_API_URL || 'https://emplay-assignment-kappa.vercel.app/';
+const API_URL = import.meta.env.VITE_API_URL || 'https://emplay-assignment-kappa.vercel.app';
 
 const fetchWithCreds = async (url: string, options: RequestInit = {}) => {
   const res = await fetch(`${API_URL}${url}`, {
